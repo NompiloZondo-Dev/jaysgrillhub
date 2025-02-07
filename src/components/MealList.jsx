@@ -19,28 +19,28 @@ import foto4 from '../images/1 Rib Steak + 14 Chicken + Bwors + 6 Wings.jpg'
 const categories = ['Steak Meals', 'Chicken Meals', 'Bwors Meals', 'Wings Meals'];
 export const mealsData = {
   'Steak Meals': [
-    { id: 1, name: '2 Briskets with Pap & Salad', image: foto, description: '2 pieces of Flame grilled brisket (230g) served with 1 pap portion and 1 salad.', price: 'R105' },
-    { id: 2, name: '1 Rib steak with Pap & Salad', image: foto2, description: '1 piece of flame grilled Rib steak (250g) served with 1 pap portion and 1 salad.', price: 'R120' },
-    { id: 3, name: 'Rib steak + 1/4 Chicken & Bwors with Pap and Salad.', image: foto3, description: 'Flame grilled rib steak (250g) with a piece of 1/4 Chicken (250g) and bwors, served with pap, and 1 salad of your choice.', price: 'R130' },
-    { id: 4, name: 'Rib steak + 1/4 Chicken + Bwors & 4 chicken wings with Pap and Salad.', image: foto4, description: 'Flame grilled rib steak (250g) with a piece of 1/4 Chicken (250g) ,4 wings and bwors, served with pap, and 1 salad of your choice.', price: 'R110' }
+    { id: 1, name: '2 Briskets with Pap & Salad', image: foto, description: '2 pieces of Flame grilled brisket (230g) served with 1 pap portion and 1 salad.', price: 'R57.90' },
+    { id: 2, name: '1 Rib steak with Pap & Salad', image: foto2, description: '1 piece of flame grilled Rib steak (250g) served with 1 pap portion and 1 salad.', price: 'R62.90' },
+    { id: 3, name: 'Rib steak + 1/4 Chicken & Bwors with Pap and Salad.', image: foto3, description: 'Flame grilled rib steak (250g) with a piece of 1/4 Chicken (250g) and bwors, served with pap, and 1 salad of your choice.', price: 'R129.90' },
+    { id: 4, name: 'Rib steak + 1/4 Chicken + Bwors & 4 chicken wings with Pap and Salad.', image: foto4, description: 'Flame grilled rib steak (250g) with a piece of 1/4 Chicken (250g) ,4 wings and bwors, served with pap, and 1 salad of your choice.', price: 'R189.90' }
   ],
   'Chicken Meals': [
-    { id: 5, name: '1/4 Chicken with Pap and Salad', image: foto5, description: 'Flame grilled 1/4 Chicken (250g), served with pap, and 1 salad of your choice.', price: 'R105' },
-    { id: 6, name: '1/4 Chicken & Bwors with Pap and Salad', image: foto6, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Bwors(130g) served with pap, and 1 salad of your choice.', price: 'R115' },
-    { id: 7, name: '1/4 Chicken & Brisket with Pap and Salad', image: foto7, description: 'Flame grilled 1/4 Chicken (250g),and a piece of Brisket served with pap, and 1 salad of your choice.', price: 'R105' },
-    { id: 8, name: '1/4 Chicken & Rib Steak with Pap and Salad', image: foto8, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Rib Steak(250g) served with pap, and 1 salad of your choice.', price: 'R115' },
+    { id: 5, name: '1/4 Chicken with Pap and Salad', image: foto5, description: 'Flame grilled 1/4 Chicken (250g), served with pap, and 1 salad of your choice.', price: 'R52.90' },
+    { id: 6, name: '1/4 Chicken & Bwors with Pap and Salad', image: foto6, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Bwors(130g) served with pap, and 1 salad of your choice.', price: 'R69.90' },
+    { id: 7, name: '1/4 Chicken & Brisket with Pap and Salad', image: foto7, description: 'Flame grilled 1/4 Chicken (250g),and a piece of Brisket served with pap, and 1 salad of your choice.', price: 'R62.90' },
+    { id: 8, name: '1/4 Chicken & Rib Steak with Pap and Salad', image: foto8, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Rib Steak(250g) served with pap, and 1 salad of your choice.', price: 'R97.90' },
   ],
   
   'Bwors Meals': [
     // { id: 9, name: 'Bwors with Pap and Salad', image: 'https://via.placeholder.com/150', description: 'Flame grilled 1/4 Chicken (250g), served with pap, and 1 salad of your choice.', price: 'R105' },
-    { id: 10, name: 'Bwors & Brisket with Pap and Salad', image: foto10, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Bwors(130g) served with pap, and 1 salad of your choice.', price: 'R115' },
-    { id: 11, name: 'Bwors & Rib Steak with Pap and Salad', image: foto11, description: 'Flame grilled 1/4 Chicken (250g),and a piece of Brisket served with pap, and 1 salad of your choice.', price: 'R105' },
+    { id: 10, name: 'Bwors & Brisket with Pap and Salad', image: foto10, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Bwors(130g) served with pap, and 1 salad of your choice.', price: 'R59.90' },
+    { id: 11, name: 'Bwors & Rib Steak with Pap and Salad', image: foto11, description: 'Flame grilled 1/4 Chicken (250g),and a piece of Brisket served with pap, and 1 salad of your choice.', price: 'R87.90' },
    
   ],
   'Wings Meals': [
-    { id: 12, name: '4 Wings with Pap and Salad', image: foto12, description: 'Flame grilled 1/4 Chicken (250g), served with pap, and 1 salad of your choice.', price: 'R105' },
-    { id: 13, name: '4 Wings & Brisket with Pap and Salad', image: foto13, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Bwors(130g) served with pap, and 1 salad of your choice.', price: 'R115' },
-    { id: 14, name: '4 Wings & Bwors with Pap and Salad', image: foto14, description: 'Flame grilled 1/4 Chicken (250g),and a piece of Brisket served with pap, and 1 salad of your choice.', price: 'R105' },
+    { id: 12, name: '4 Wings & Rib Steak with Pap and Salad', image: foto12, description: 'Flame grilled 1/4 Chicken (250g), served with pap, and 1 salad of your choice.', price: 'R104.90' },
+    { id: 13, name: '4 Wings & Brisket with Pap and Salad', image: foto13, description: 'Flame grilled 1/4 Chicken (250g) and a piece of Bwors(130g) served with pap, and 1 salad of your choice.', price: 'R79.90' },
+    { id: 14, name: '4 Wings & Bwors with Pap and Salad', image: foto14, description: 'Flame grilled 1/4 Chicken (250g),and a piece of Brisket served with pap, and 1 salad of your choice.', price: 'R84.90' },
     // { id: 15, name: '4 Wings & Rib Steak with Pap and Salad', image: 'https://via.placeholder.com/150', description: 'Flame grilled 1/4 Chicken (250g) and a piece of Rib Steak(250g) served with pap, and 1 salad of your choice.', price: 'R115' },
   ],
   // 'Extras': [

@@ -91,8 +91,8 @@ const MealDetails = () => {
   };
 
   const calculateTotal = () => {
-    const extraPrices = { '1/4 Chicken': 105, Bwors: 115, Brisket: 105, 'Rib Steak': 115 };
-    const drinkPrices = { Coke: 15, Sprite: 15, Fanta: 15, Water: 10 };
+    const extraPrices = { '1/4 Chicken': 34.90, Bwors: 24.90, Brisket: 19.90, 'Rib Steak': 44.90 };
+    const drinkPrices = { Coke: 16.90, Sprite: 16.90, Fanta: 16.90, Water: 10 };
 
     let total = parseFloat(meal.price.replace('R', '').trim()) * mealQuantity;
 
@@ -109,7 +109,7 @@ const MealDetails = () => {
 
   const handleCancelSelection = () => {
     setSelectedSalad('');
-    setExtras({ '1/4 Chicken': false, Bwors: false, Brisket: false, 'Rib Steak': false });
+    setExtras({ '1/4 Chicken': false, Bwors: false, Brisket: false, 'Rib Steak': false  });
     setDrinks({ Coke: false, Sprite: false, Fanta: false, Water: false });
     navigate('/');
   };
@@ -179,6 +179,8 @@ const MealDetails = () => {
           <span>{item}</span>
         </div>
       ))}
+
+      
     </div>
   </div>
 <br></br>
