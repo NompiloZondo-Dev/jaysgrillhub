@@ -352,7 +352,7 @@ const Checkout = () => {
       console.log('Sending SMS with order details:', orderDetails);
 
       const response = await Axios.post(
-        'https://back-end-gbvh.onrender.com/',
+        'https://back-end-gbvh.onrender.com/send-sms',
         { orderNumber, orderDetails },
         { withCredentials: true }  // Important for CORS issues
       );
