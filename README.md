@@ -7,4 +7,5 @@ Welcome to the Ordering App! This application allows customers to easily place o
 **Order Placement**: Users can add items to their cart and place an order.
 
 **Frontend**: React.js
+
 **Backend**: Node.js with Express.js 
